@@ -1,0 +1,95 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.payment.journal,csb34_barred:"
+msgid "Barred"
+msgstr "Barrado"
+
+msgctxt "field:account.payment.journal,csb34_not_to_the_order:"
+msgid "Not to the Order"
+msgstr "No a la orden"
+
+msgctxt "field:account.payment.journal,csb34_type:"
+msgid "Type of CSB 34 payment"
+msgstr "Tipo de pago CSB 34"
+
+msgctxt "field:account.payment.journal,csb_34_concept:"
+msgid "Concept of the Order"
+msgstr "Concepto de la orden"
+
+msgctxt "field:account.payment.journal,csb_34_cost_key:"
+msgid "Cost Key"
+msgstr "Clave de coste"
+
+msgctxt "field:account.payment.journal,csb_34_direct_pay_order:"
+msgid "Direct Pay Order"
+msgstr "Orden de pago directo"
+
+msgctxt "field:account.payment.journal,csb_34_payroll_check:"
+msgid "Payroll Check"
+msgstr "Cheque nómina"
+
+msgctxt "field:account.payment.journal,csb_34_send_type:"
+msgid "Send Type"
+msgstr "Tipo de envío"
+
+msgctxt "help:account.payment.journal,csb_34_concept:"
+msgid "Concept of the Order."
+msgstr "Concepto de la orden."
+
+msgctxt "help:account.payment.journal,csb_34_direct_pay_order:"
+msgid "By default 'Not'."
+msgstr "Por defecto 'No'."
+
+msgctxt "help:account.payment.journal,csb_34_payroll_check:"
+msgid ""
+"Check it if you want to add the 018 data type in the file (the vat of the "
+"recipient is added in the 018 data type)."
+msgstr ""
+"Márquelo si quiere añadir el tipo de dato 018 en el fichero (el CIF/NIF del "
+"receptor se añade en el tipo de dato 018)."
+
+msgctxt "help:account.payment.journal,csb_34_send_type:"
+msgid "The sending type of the payment file."
+msgstr "El tipo de envío del fichero de pago."
+
+msgctxt "selection:account.payment.journal,csb34_type:"
+msgid "Checks"
+msgstr "Cheques"
+
+msgctxt "selection:account.payment.journal,csb34_type:"
+msgid "Transfers"
+msgstr "Transferencia"
+
+msgctxt "selection:account.payment.journal,csb_34_concept:"
+msgid "Other"
+msgstr "Otro"
+
+msgctxt "selection:account.payment.journal,csb_34_concept:"
+msgid "Payroll"
+msgstr "Nómina"
+
+msgctxt "selection:account.payment.journal,csb_34_concept:"
+msgid "Pension"
+msgstr "Pensión"
+
+msgctxt "selection:account.payment.journal,csb_34_cost_key:"
+msgid "Expense of the Payer"
+msgstr "Gastos del pagador"
+
+msgctxt "selection:account.payment.journal,csb_34_cost_key:"
+msgid "Expense of the Recipient"
+msgstr "Gastos del beneficiario"
+
+msgctxt "selection:account.payment.journal,csb_34_send_type:"
+msgid "Certified Mail"
+msgstr "Correo certificado"
+
+msgctxt "selection:account.payment.journal,csb_34_send_type:"
+msgid "Ordinary Mail"
+msgstr "Correo ordinario"
+
+msgctxt "selection:account.payment.journal,csb_34_send_type:"
+msgid "Other"
+msgstr "Otro"

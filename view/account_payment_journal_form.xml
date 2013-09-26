@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- This file is part account_payment_es_csb_34 module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/field[@name=&quot;ine_code&quot;]"
+            position="after">
+        <label name="csb34_type"/>
+        <field name="csb34_type" colspan="5"/>
+        <label name="csb_34_cost_key"/>
+        <field name="csb_34_cost_key"/>
+        <label name="csb_34_concept"/>
+        <field name="csb_34_concept"/>
+        <label name="csb_34_direct_pay_order"/>
+        <field name="csb_34_direct_pay_order"/>
+    </xpath>
+</data>
