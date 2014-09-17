@@ -79,7 +79,6 @@ class Group:
             csb34_not_to_the_order
         values['barred'] = values['payment_journal'].csb34_barred
         values['csb34_type'] = values['payment_journal'].csb34_type
-        values['bank_account'] = values['bank_account'].numbers[0].number
         values['payroll_check'] = values['payment_journal'].\
             csb_34_payroll_check
         values['record_count'] = 0
@@ -99,7 +98,6 @@ class Group:
                 self.raise_user_error('configuration_error',
                     error_description='party_without_vat_number',
                     error_description_args=(receipt['party'].name,))
-            receipt['bank_account'] = receipt['bank_account'].numbers[0].number
             receipt['cost'] = values['payment_journal'].csb_34_cost_key
             receipt['concept'] = values['payment_journal'].csb_34_concept
             receipt['direct_payment'] = 'true' if values[
