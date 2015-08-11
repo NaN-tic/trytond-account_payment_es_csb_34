@@ -5,6 +5,7 @@
 from trytond.model import fields
 from trytond.pool import PoolMeta
 from trytond.pyson import Eval
+
 __all__ = [
     'Journal',
     'Group',
