@@ -95,9 +95,9 @@ class Group:
                 self.raise_user_error('configuration_error',
                         error_description='party_without_complete_address',
                         error_description_args=(receipt['party'].name,))
-            if not receipt['vat_number']:
+            if not receipt['vat_code']:
                 self.raise_user_error('configuration_error',
-                    error_description='party_without_vat_number',
+                    error_description='party_without_vat_code',
                     error_description_args=(receipt['party'].name,))
             receipt['cost'] = values['payment_journal'].csb_34_cost_key
             receipt['concept'] = values['payment_journal'].csb_34_concept
